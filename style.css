@@ -1,0 +1,124 @@
+* {box-sizing: border-box}
+h1{
+    font: outline;
+    color: rgb(31, 34, 32);
+    font-style: serif;
+    padding: 10px 0;
+    background-color: lightcyan;
+
+}
+h2{
+    font-style: fantasy;
+}
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #bed0f1;
+  padding: 20px 0 30px 0;
+}
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: 10px;
+  border-radius: 4px;
+  margin: 2% 0;
+  opacity: 1;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 20px;
+  text-decoration:none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 0.5;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #8249ec;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3448b4;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 10px 10px;
+  margin-top: 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.inner {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ac9af0;
+  border: 1px solid rgb(172, 159, 245);
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+    display: none;
+  }
+
+/* bottom container */
+.bottom-container {
+  
+  width:50%;
+  text-emphasis: pad;
+  height:100px;
+  box-shadow: inset;
+  text-align: center;
+  background-color: rgb(33, 138, 23);
+  
+}
+.bottom-text{
+  margin: 0 0 0 0;
+  text-align: center;
+}
+
